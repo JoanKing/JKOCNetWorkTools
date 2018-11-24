@@ -1,0 +1,6 @@
+framework module Pods_JKOCNetWorkTools {
+  umbrella header "Pods-JKOCNetWorkTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

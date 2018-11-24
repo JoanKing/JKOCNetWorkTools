@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF253749A40410F278DFBB37 /* Pods_JKOCNetWorkTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B86D41F87CB22C5E66E37E3 /* Pods_JKOCNetWorkTools.framework */; };
+		E222CA2821A9845600B874B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E222CA2721A9845600B874B8 /* AppDelegate.m */; };
+		E222CA2B21A9845600B874B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E222CA2A21A9845600B874B8 /* ViewController.m */; };
+		E222CA2E21A9845600B874B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E222CA2C21A9845600B874B8 /* Main.storyboard */; };
+		E222CA3021A9845600B874B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E222CA2F21A9845600B874B8 /* Assets.xcassets */; };
+		E222CA3321A9845600B874B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E222CA3121A9845600B874B8 /* LaunchScreen.storyboard */; };
+		E222CA3621A9845700B874B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E222CA3521A9845700B874B8 /* main.m */; };
+		E222CA4021A9845700B874B8 /* JKOCNetWorkToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E222CA3F21A9845700B874B8 /* JKOCNetWorkToolsTests.m */; };
+		E222CA4B21A9845700B874B8 /* JKOCNetWorkToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E222CA4A21A9845700B874B8 /* JKOCNetWorkToolsUITests.m */; };
+		E222CA5B21A9855A00B874B8 /* JKOCNetWorkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E222CA5921A9855A00B874B8 /* JKOCNetWorkTools.m */; };
+		E222CA6221A985A100B874B8 /* CourseInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E222CA5D21A985A100B874B8 /* CourseInfoModel.m */; };
+		E222CA6321A985A100B874B8 /* LoginUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E222CA5E21A985A100B874B8 /* LoginUserModel.m */; };
+		E222CA6421A985A100B874B8 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E222CA6021A985A100B874B8 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E222CA3C21A9845700B874B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E222CA1B21A9845600B874B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E222CA2221A9845600B874B8;
+			remoteInfo = JKOCNetWorkTools;
+		};
+		E222CA4721A9845700B874B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E222CA1B21A9845600B874B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E222CA2221A9845600B874B8;
+			remoteInfo = JKOCNetWorkTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3138196F10B5BC03164030CB /* Pods-JKOCNetWorkTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKOCNetWorkTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKOCNetWorkTools/Pods-JKOCNetWorkTools.release.xcconfig"; sourceTree = "<group>"; };
+		5FE999CD96D1C6B02771A8EA /* Pods-JKOCNetWorkTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKOCNetWorkTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKOCNetWorkTools/Pods-JKOCNetWorkTools.debug.xcconfig"; sourceTree = "<group>"; };
+		8B86D41F87CB22C5E66E37E3 /* Pods_JKOCNetWorkTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKOCNetWorkTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E222CA2321A9845600B874B8 /* JKOCNetWorkTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKOCNetWorkTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E222CA2621A9845600B874B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E222CA2721A9845600B874B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E222CA2921A9845600B874B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E222CA2A21A9845600B874B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E222CA2D21A9845600B874B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E222CA2F21A9845600B874B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E222CA3221A9845600B874B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E222CA3421A9845700B874B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E222CA3521A9845700B874B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E222CA3B21A9845700B874B8 /* JKOCNetWorkToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKOCNetWorkToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E222CA3F21A9845700B874B8 /* JKOCNetWorkToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKOCNetWorkToolsTests.m; sourceTree = "<group>"; };
+		E222CA4121A9845700B874B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E222CA4621A9845700B874B8 /* JKOCNetWorkToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKOCNetWorkToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E222CA4A21A9845700B874B8 /* JKOCNetWorkToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKOCNetWorkToolsUITests.m; sourceTree = "<group>"; };
+		E222CA4C21A9845700B874B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E222CA5821A9847100B874B8 /* JKOCNetWorkTools.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKOCNetWorkTools.pch; sourceTree = "<group>"; };
+		E222CA5921A9855A00B874B8 /* JKOCNetWorkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKOCNetWorkTools.m; sourceTree = "<group>"; };
+		E222CA5A21A9855A00B874B8 /* JKOCNetWorkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKOCNetWorkTools.h; sourceTree = "<group>"; };
+		E222CA5C21A985A100B874B8 /* LoginUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginUserModel.h; sourceTree = "<group>"; };
+		E222CA5D21A985A100B874B8 /* CourseInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseInfoModel.m; sourceTree = "<group>"; };
+		E222CA5E21A985A100B874B8 /* LoginUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginUserModel.m; sourceTree = "<group>"; };
+		E222CA5F21A985A100B874B8 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E222CA6021A985A100B874B8 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		E222CA6121A985A100B874B8 /* CourseInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseInfoModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E222CA2021A9845600B874B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF253749A40410F278DFBB37 /* Pods_JKOCNetWorkTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E222CA3821A9845700B874B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E222CA4321A9845700B874B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F161AE0EAA07117B7A465C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B86D41F87CB22C5E66E37E3 /* Pods_JKOCNetWorkTools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB291A5DC1812CCE83596687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FE999CD96D1C6B02771A8EA /* Pods-JKOCNetWorkTools.debug.xcconfig */,
+				3138196F10B5BC03164030CB /* Pods-JKOCNetWorkTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E222CA1A21A9845600B874B8 = {
+			isa = PBXGroup;
+			children = (
+				E222CA2521A9845600B874B8 /* JKOCNetWorkTools */,
+				E222CA3E21A9845700B874B8 /* JKOCNetWorkToolsTests */,
+				E222CA4921A9845700B874B8 /* JKOCNetWorkToolsUITests */,
+				E222CA2421A9845600B874B8 /* Products */,
+				BB291A5DC1812CCE83596687 /* Pods */,
+				7F161AE0EAA07117B7A465C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E222CA2421A9845600B874B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E222CA2321A9845600B874B8 /* JKOCNetWorkTools.app */,
+				E222CA3B21A9845700B874B8 /* JKOCNetWorkToolsTests.xctest */,
+				E222CA4621A9845700B874B8 /* JKOCNetWorkToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E222CA2521A9845600B874B8 /* JKOCNetWorkTools */ = {
+			isa = PBXGroup;
+			children = (
+				E222CA2621A9845600B874B8 /* AppDelegate.h */,
+				E222CA2721A9845600B874B8 /* AppDelegate.m */,
+				E222CA2921A9845600B874B8 /* ViewController.h */,
+				E222CA2A21A9845600B874B8 /* ViewController.m */,
+				E222CA5F21A985A100B874B8 /* TestViewController.h */,
+				E222CA6021A985A100B874B8 /* TestViewController.m */,
+				E222CA6121A985A100B874B8 /* CourseInfoModel.h */,
+				E222CA5D21A985A100B874B8 /* CourseInfoModel.m */,
+				E222CA5C21A985A100B874B8 /* LoginUserModel.h */,
+				E222CA5E21A985A100B874B8 /* LoginUserModel.m */,
+				E222CA5A21A9855A00B874B8 /* JKOCNetWorkTools.h */,
+				E222CA5921A9855A00B874B8 /* JKOCNetWorkTools.m */,
+				E222CA2C21A9845600B874B8 /* Main.storyboard */,
+				E222CA2F21A9845600B874B8 /* Assets.xcassets */,
+				E222CA3121A9845600B874B8 /* LaunchScreen.storyboard */,
+				E222CA3421A9845700B874B8 /* Info.plist */,
+				E222CA5821A9847100B874B8 /* JKOCNetWorkTools.pch */,
+				E222CA3521A9845700B874B8 /* main.m */,
+			);
+			path = JKOCNetWorkTools;
+			sourceTree = "<group>";
+		};
+		E222CA3E21A9845700B874B8 /* JKOCNetWorkToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E222CA3F21A9845700B874B8 /* JKOCNetWorkToolsTests.m */,
+				E222CA4121A9845700B874B8 /* Info.plist */,
+			);
+			path = JKOCNetWorkToolsTests;
+			sourceTree = "<group>";
+		};
+		E222CA4921A9845700B874B8 /* JKOCNetWorkToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E222CA4A21A9845700B874B8 /* JKOCNetWorkToolsUITests.m */,
+				E222CA4C21A9845700B874B8 /* Info.plist */,
+			);
+			path = JKOCNetWorkToolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E222CA2221A9845600B874B8 /* JKOCNetWorkTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E222CA4F21A9845700B874B8 /* Build configuration list for PBXNativeTarget "JKOCNetWorkTools" */;
+			buildPhases = (
+				D4628EF20BB64ED1F2F6C9DA /* [CP] Check Pods Manifest.lock */,
+				E222CA1F21A9845600B874B8 /* Sources */,
+				E222CA2021A9845600B874B8 /* Frameworks */,
+				E222CA2121A9845600B874B8 /* Resources */,
+				452B1EE71E8238B007B5276C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKOCNetWorkTools;
+			productName = JKOCNetWorkTools;
+			productReference = E222CA2321A9845600B874B8 /* JKOCNetWorkTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E222CA3A21A9845700B874B8 /* JKOCNetWorkToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E222CA5221A9845700B874B8 /* Build configuration list for PBXNativeTarget "JKOCNetWorkToolsTests" */;
+			buildPhases = (
+				E222CA3721A9845700B874B8 /* Sources */,
+				E222CA3821A9845700B874B8 /* Frameworks */,
+				E222CA3921A9845700B874B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E222CA3D21A9845700B874B8 /* PBXTargetDependency */,
+			);
+			name = JKOCNetWorkToolsTests;
+			productName = JKOCNetWorkToolsTests;
+			productReference = E222CA3B21A9845700B874B8 /* JKOCNetWorkToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E222CA4521A9845700B874B8 /* JKOCNetWorkToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E222CA5521A9845700B874B8 /* Build configuration list for PBXNativeTarget "JKOCNetWorkToolsUITests" */;
+			buildPhases = (
+				E222CA4221A9845700B874B8 /* Sources */,
+				E222CA4321A9845700B874B8 /* Frameworks */,
+				E222CA4421A9845700B874B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E222CA4821A9845700B874B8 /* PBXTargetDependency */,
+			);
+			name = JKOCNetWorkToolsUITests;
+			productName = JKOCNetWorkToolsUITests;
+			productReference = E222CA4621A9845700B874B8 /* JKOCNetWorkToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E222CA1B21A9845600B874B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "JK科技有限公司";
+				TargetAttributes = {
+					E222CA2221A9845600B874B8 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E222CA3A21A9845700B874B8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E222CA2221A9845600B874B8;
+					};
+					E222CA4521A9845700B874B8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E222CA2221A9845600B874B8;
+					};
+				};
+			};
+			buildConfigurationList = E222CA1E21A9845600B874B8 /* Build configuration list for PBXProject "JKOCNetWorkTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E222CA1A21A9845600B874B8;
+			productRefGroup = E222CA2421A9845600B874B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E222CA2221A9845600B874B8 /* JKOCNetWorkTools */,
+				E222CA3A21A9845700B874B8 /* JKOCNetWorkToolsTests */,
+				E222CA4521A9845700B874B8 /* JKOCNetWorkToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E222CA2121A9845600B874B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E222CA3321A9845600B874B8 /* LaunchScreen.storyboard in Resources */,
+				E222CA3021A9845600B874B8 /* Assets.xcassets in Resources */,
+				E222CA2E21A9845600B874B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E222CA3921A9845700B874B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E222CA4421A9845700B874B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		452B1EE71E8238B007B5276C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JKOCNetWorkTools/Pods-JKOCNetWorkTools-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKOCNetWorkTools/Pods-JKOCNetWorkTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4628EF20BB64ED1F2F6C9DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKOCNetWorkTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E222CA1F21A9845600B874B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E222CA6221A985A100B874B8 /* CourseInfoModel.m in Sources */,
+				E222CA2B21A9845600B874B8 /* ViewController.m in Sources */,
+				E222CA6421A985A100B874B8 /* TestViewController.m in Sources */,
+				E222CA6321A985A100B874B8 /* LoginUserModel.m in Sources */,
+				E222CA3621A9845700B874B8 /* main.m in Sources */,
+				E222CA2821A9845600B874B8 /* AppDelegate.m in Sources */,
+				E222CA5B21A9855A00B874B8 /* JKOCNetWorkTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E222CA3721A9845700B874B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E222CA4021A9845700B874B8 /* JKOCNetWorkToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E222CA4221A9845700B874B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E222CA4B21A9845700B874B8 /* JKOCNetWorkToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E222CA3D21A9845700B874B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E222CA2221A9845600B874B8 /* JKOCNetWorkTools */;
+			targetProxy = E222CA3C21A9845700B874B8 /* PBXContainerItemProxy */;
+		};
+		E222CA4821A9845700B874B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E222CA2221A9845600B874B8 /* JKOCNetWorkTools */;
+			targetProxy = E222CA4721A9845700B874B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E222CA2C21A9845600B874B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E222CA2D21A9845600B874B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E222CA3121A9845600B874B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E222CA3221A9845600B874B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E222CA4D21A9845700B874B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E222CA4E21A9845700B874B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E222CA5021A9845700B874B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE999CD96D1C6B02771A8EA /* Pods-JKOCNetWorkTools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				GCC_PREFIX_HEADER = JKOCNetWorkTools/JKOCNetWorkTools.pch;
+				INFOPLIST_FILE = JKOCNetWorkTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKOCNetWorkTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E222CA5121A9845700B874B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3138196F10B5BC03164030CB /* Pods-JKOCNetWorkTools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				GCC_PREFIX_HEADER = JKOCNetWorkTools/JKOCNetWorkTools.pch;
+				INFOPLIST_FILE = JKOCNetWorkTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKOCNetWorkTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E222CA5321A9845700B874B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKOCNetWorkToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKOCNetWorkToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKOCNetWorkTools.app/JKOCNetWorkTools";
+			};
+			name = Debug;
+		};
+		E222CA5421A9845700B874B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKOCNetWorkToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKOCNetWorkToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKOCNetWorkTools.app/JKOCNetWorkTools";
+			};
+			name = Release;
+		};
+		E222CA5621A9845700B874B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKOCNetWorkToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKOCNetWorkToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKOCNetWorkTools;
+			};
+			name = Debug;
+		};
+		E222CA5721A9845700B874B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKOCNetWorkToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKOCNetWorkToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKOCNetWorkTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E222CA1E21A9845600B874B8 /* Build configuration list for PBXProject "JKOCNetWorkTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E222CA4D21A9845700B874B8 /* Debug */,
+				E222CA4E21A9845700B874B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E222CA4F21A9845700B874B8 /* Build configuration list for PBXNativeTarget "JKOCNetWorkTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E222CA5021A9845700B874B8 /* Debug */,
+				E222CA5121A9845700B874B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E222CA5221A9845700B874B8 /* Build configuration list for PBXNativeTarget "JKOCNetWorkToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E222CA5321A9845700B874B8 /* Debug */,
+				E222CA5421A9845700B874B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E222CA5521A9845700B874B8 /* Build configuration list for PBXNativeTarget "JKOCNetWorkToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E222CA5621A9845700B874B8 /* Debug */,
+				E222CA5721A9845700B874B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E222CA1B21A9845600B874B8 /* Project object */;
+}
